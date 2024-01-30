@@ -68,32 +68,32 @@ body {
     font-size: 22px;
     line-height: 26px;
 }
-  
+
 .post p {
     font-size: 18px;
     line-height: 26px;
 }
-  
+
 .post h4 {
     font-size: 20px;
     line-height: 26px;
 }
-  
+
 .post ul {
     font-size: 18px;
     line-height: 26px;
 }
-  
+
 .post ins {
     text-decoration: none;
 }
-  
+
 .post blockquote {
     font-weight: bold;
     font-size: 26px;
     line-height: 36px;
 }
-  
+
 .post-meta a {
     font-size: 16px;
     line-height: 19px;
@@ -101,7 +101,7 @@ body {
     color: #163152;
     text-decoration: none;
 }
-  
+
 .post-meta time {
     font-size: 16px;
     line-height: 19px;
@@ -117,37 +117,37 @@ body {
     font-size: 16px;
     line-height: 22px;
 }
-  
+
 .contact-item address {
     font-style: normal;
 }
-  
+
 .contact-item a {
     color: #163152;
     text-decoration: none;
 }
-  
+
 .main-footer {
     font-size: 10px;
     line-height: 12px;
 }
-  
+
 .footer-navigation-topics {
     font-size: 14px;
     line-height: 16px;
 }
-  
+
 .footer-navigation-topic h2 {
     font-size: 14px;
     line-height: 18px;
     text-transform: uppercase;
 }
-  
+
 .footer-navigation-item a {
     color: #163152;
     text-decoration: none;
 }
-  
+
 .policy a {
     color: #163152;
     text-decoration: none;
