@@ -1,3 +1,5 @@
+/* Общие стили */
+
 body {
     margin: 0;
     font-family: "Roboto", sans-serif;
@@ -6,6 +8,8 @@ body {
     color: #163152;
     background-color: #fdfdff;
 }
+
+/* Стили header */
 
 .page-header {
     width: 1170px;
@@ -44,11 +48,15 @@ body {
     width: 36px;
 }
 
+/* Стили main */
+
 .main-content {
     width: 1170px;
     margin: 0 auto;
     padding: 0 55px;
 }
+
+/* Стили блока hero */
 
 .hero {
     margin-bottom: 120px;
@@ -63,6 +71,8 @@ body {
     line-height: 60px;
     text-transform: uppercase;
 }
+
+/* Общие стили блока блог */
 
 .blog-article {
     display: flex;
@@ -79,6 +89,8 @@ body {
     width: 600px;
 }
 
+/* Стили блока блог-1 */
+
 .blog-article-1 {
     margin-bottom: 100px;
 }
@@ -86,6 +98,8 @@ body {
 .blog-article-1 .blog-article-content {
     margin-right: 30px;
 }
+
+/* Стили блока блог-2 */
 
 .blog-article-2 {
     flex-direction: row-reverse;
@@ -113,6 +127,8 @@ body {
     line-height: 18px;
     text-transform: uppercase;
 }
+
+/* Стили блока новости */
 
 .news {
     width: 770px;
@@ -187,6 +203,8 @@ body {
     color: #8693a4;
 }
 
+/* Стили блока контакты */
+
 .contacts {
     display: flex;
     flex-direction: row-reverse;
@@ -231,6 +249,8 @@ body {
     color: #163152;
     text-decoration: none;
 }
+
+/* Стили footer */
 
 .main-footer {
     padding-top: 60px;
