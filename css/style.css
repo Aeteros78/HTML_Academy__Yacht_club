@@ -13,6 +13,8 @@
 .page__header {
     width: 1170px;
     margin-inline: 55px;
+    margin-block-end: 50px;
+    margin-block-start: 20px;
 }
 
 .main__nav {
@@ -70,6 +72,7 @@
     line-height: 60px;
     text-transform: uppercase;
     margin-inline-start: 70px;
+    margin-block-end: 40px;
 }
 
 .section_hero__img {
@@ -79,44 +82,15 @@
 
 /* Общие стили блока блог */
 
-.blog-article {
+.article_blog {
     display: flex;
     justify-content: space-between;
     width: 1030px;
+    margin-inline: 70px;
+    gap: 30px;
 }
 
-.blog-article-content {
-    width: 400px;
-}
-
-.blog-article-img {
-    width: 600px;
-}
-
-/* Стили блока блог-1 */
-
-.blog-article-1 {
-
-}
-
-.blog-article-1 .blog-article-content {
-
-}
-
-/* Стили блока блог-2 */
-
-.blog-article-2 {
-    flex-direction: row-reverse;
-
-}
-
-.blog-article-2 .blog-article-img {
-
-}
-
-.blog-article h2 {
-    margin-top: 0;
-
+.article_blog__title {
     font-size: 24px;
     line-height: 34px;
     text-decoration: underline;
@@ -124,12 +98,37 @@
     text-decoration-thickness: 2px;
     text-underline-offset: 15px;
     text-underline-position: under;
+    margin-block-end: 40px;
 }
 
-.blog-article-date {
+.article_blog__content {
+    width: 400px;
+}
+
+.barticle_blog__img {
+    width: 600px;
+    height: 292px;
+}
+
+/* Стили артикль команда */
+
+.article_blog_team {
+    margin-block-end: 95px;
+}
+
+/* Стили артикль рожденные */
+
+.article_blog_born {
+    flex-direction: row-reverse;
+    text-align: end;
+    margin-block-end: 100px;
+}
+
+.article_blog__date {
     font-size: 14px;
     line-height: 18px;
     text-transform: uppercase;
+    margin-block-end: 5px;
 }
 
 /* Стили блока новости */
