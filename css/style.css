@@ -1,7 +1,6 @@
 /* Общие стили */
 
-body {
-    margin: 0;
+.page {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     line-height: 24px;
@@ -11,32 +10,34 @@ body {
 
 /* Стили header */
 
-.page-header {
+.page__header {
     width: 1170px;
-    margin: 0 auto;
-    padding: 20px 55px;
-    margin-bottom: 40px;
+    margin-inline: 55px;
 }
 
-.main-nav {
+.main__nav {
     display: flex;
+    align-items: center;
 }
 
 .logo {
     width: 64px;
-    margin: 0;
-    margin-right: auto;
 }
 
-.site-navigation {
-    padding: 0;
-    margin: 0;
-    margin-right: 40px;
+.site_navigation__list {
     list-style: none;
     width: 560px;
+    display: flex;
+    gap: 30px;
+    margin-inline-start: auto;
+    margin-inline-end: 40px;
 }
 
-.site-navigation-item a {
+.site_navigation__item {
+    align-self: flex-end;
+}
+
+.site_navigation__item__link {
     font-size: 14px;
     line-height: 18px;
     text-transform: uppercase;
@@ -46,25 +47,21 @@ body {
 
 .signin {
     width: 36px;
+    height: 36px;
 }
 
 /* Стили main */
 
 .main-content {
     width: 1170px;
-    margin: 0 auto;
-    padding: 0 55px;
 }
 
 /* Стили блока hero */
 
 .hero {
-    margin-bottom: 120px;
 }
 
 .hero h1 {
-    margin-top: 0;
-    margin-bottom: 40px;
     font-style: italic;
     font-weight: normal;
     font-size: 44px;
@@ -78,7 +75,6 @@ body {
     display: flex;
     justify-content: space-between;
     width: 1030px;
-    margin: 0 auto;
 }
 
 .blog-article-content {
@@ -92,27 +88,27 @@ body {
 /* Стили блока блог-1 */
 
 .blog-article-1 {
-    margin-bottom: 100px;
+
 }
 
 .blog-article-1 .blog-article-content {
-    margin-right: 30px;
+
 }
 
 /* Стили блока блог-2 */
 
 .blog-article-2 {
     flex-direction: row-reverse;
-    margin-bottom: 120px;
+
 }
 
 .blog-article-2 .blog-article-img {
-    margin-right: 30px;
+
 }
 
 .blog-article h2 {
     margin-top: 0;
-    margin-bottom: 35px;
+
     font-size: 24px;
     line-height: 34px;
     text-decoration: underline;
@@ -132,13 +128,11 @@ body {
 
 .news {
     width: 770px;
-    margin: 0 auto;
-    margin-bottom: 120px;
+
 }
 
 .news h2 {
-    margin: 0;
-    margin-bottom: 55px;
+
     font-size: 24px;
     line-height: 34px;
     text-align: center;
@@ -150,7 +144,7 @@ body {
 }
 
 .post-img {
-    margin: 0;
+
 }
 
 .post-img figcaption {
@@ -206,13 +200,12 @@ body {
 /* Стили блока галерея */
 
 .gallery {
-    margin-bottom: 120px;
 
 }
 
 .gallery h2 {
-    margin: 0;
-    margin-bottom: 55px;
+
+
     font-size: 24px;
     line-height: 34px;
     text-align: center;
@@ -230,22 +223,21 @@ body {
 
 .active-img {
     width: 970px;
-    margin-right: 30px;
+
 }
 
 .gallery-preview {
     width: 170px;
-    margin: 0;
-    padding: 0;
+
     list-style: none;
 }
 
 .preview-item {
-    margin-bottom: 30px;
+
 }
 
 .preview-item:last-child {
-    margin-bottom: 0;
+
 }
 
 
@@ -266,8 +258,8 @@ body {
 }
 
 .contacts h2 {
-    margin: 0;
-    margin-bottom: 35px;
+
+
     font-size: 24px;
     line-height: 34px;
     text-decoration: underline;
@@ -299,17 +291,14 @@ body {
 /* Стили footer */
 
 .main-footer {
-    padding-top: 60px;
-    padding-bottom: 60px;
-    margin-top: 120px;
+
     font-size: 10px;
     line-height: 12px;
 }
 
 .footer-container {
     width: 1170px;
-    margin: 0 auto;
-    padding: 0 55px;
+
     display: flex;
     justify-content: space-between;
 }
@@ -327,8 +316,7 @@ body {
     justify-content: space-between;
     width: 870px;
     list-style: none;
-    padding: 0;
-    margin: 0;
+
     font-size: 14px;
     line-height: 16px;
 }
@@ -338,8 +326,7 @@ body {
 }
 
 .footer-navigation-topic h2 {
-    margin-top: 0;
-    margin-bottom: 20px;
+
     font-size: 14px;
     line-height: 18px;
     text-transform: uppercase;
@@ -347,8 +334,7 @@ body {
 
 .footer-navigation {
     list-style: none;
-    padding: 0;
-    margin: 0;
+
 }
 
 .footer-navigation-item a {
