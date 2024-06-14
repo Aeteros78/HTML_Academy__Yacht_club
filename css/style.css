@@ -59,6 +59,18 @@
     margin-inline: 55px;
 }
 
+.section__title {
+    font-size: 24px;
+    line-height: 34px;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #00c6bd;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 15px;
+    text-underline-position: under;
+    margin-block-end: 55px;
+}
+
 /* Стили блока hero */
 
 .section_hero {
@@ -121,7 +133,7 @@
 .article_blog_born {
     flex-direction: row-reverse;
     text-align: end;
-    margin-block-end: 100px;
+    margin-block-end: 120px;
 }
 
 .article_blog__date {
@@ -131,23 +143,35 @@
     margin-block-end: 5px;
 }
 
+/* Стили блока галерея */
+
+.gallery {
+    margin-block-end: 110px;
+}
+
+.gallery__wrapper {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.active__img {
+    width: 970px;
+}
+
+.gallery__list {
+    width: 170px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+
 /* Стили блока новости */
 
 .news {
     width: 770px;
 
-}
-
-.news h2 {
-
-    font-size: 24px;
-    line-height: 34px;
-    text-align: center;
-    text-decoration: underline;
-    text-decoration-color: #00c6bd;
-    text-decoration-thickness: 2px;
-    text-underline-offset: 15px;
-    text-underline-position: under;
 }
 
 .post-img {
@@ -204,48 +228,6 @@
     color: #8693a4;
 }
 
-/* Стили блока галерея */
-
-.gallery {
-
-}
-
-.gallery h2 {
-
-
-    font-size: 24px;
-    line-height: 34px;
-    text-align: center;
-    text-decoration: underline;
-    text-decoration-color: #00c6bd;
-    text-decoration-thickness: 2px;
-    text-underline-offset: 15px;
-    text-underline-position: under;
-}
-
-.gallery-wrapper {
-    display: flex;
-    align-items: flex-start;
-}
-
-.active-img {
-    width: 970px;
-
-}
-
-.gallery-preview {
-    width: 170px;
-
-    list-style: none;
-}
-
-.preview-item {
-
-}
-
-.preview-item:last-child {
-
-}
 
 
 /* Стили блока контакты */
