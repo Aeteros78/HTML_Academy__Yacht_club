@@ -17,7 +17,10 @@ h6,
 p,
 ul,
 ol,
-li {
+li,
+figure,
+figcaption,
+blockquote {
     margin: 0;
     padding: 0;
 }

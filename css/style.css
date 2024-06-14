@@ -159,6 +159,11 @@
     width: 970px;
 }
 
+.gallery__list__img {
+    width: 170px;
+    height: 150px;
+}
+
 .gallery__list {
     width: 170px;
     list-style: none;
@@ -169,52 +174,92 @@
 
 /* Стили блока новости */
 
-.news {
+.section_news {
+    margin-block-end: 125px;
+}
+
+.article__post_news {
+    margin-inline-start: 200px;
+}
+
+.news_post__img {
     width: 770px;
+    height: 301px;
+    margin-block-end: 15px;
 
 }
 
-.post-img {
-
+.news_post__figure {
+    margin-block-end: 30px;
 }
 
-.post-img figcaption {
+.news_post__figcaption {
     font-size: 16px;
     line-height: 19px;
     color: #8693a4;
 }
 
-.post h3 {
+.news_post__title {
     font-size: 22px;
     line-height: 26px;
+    margin-block-end: 30px;
 }
 
-.post p {
+.news_post__paragraph {
     font-size: 18px;
     line-height: 26px;
+    width: 75%;
+    margin-block-end: 15px;
 }
 
-.post h4 {
+.news_post__subtitle {
     font-size: 20px;
     line-height: 26px;
+    margin-block-end: 17px;
 }
 
-.post ul {
+.news_post__list {
     font-size: 18px;
     line-height: 26px;
+    list-style: disc;
+    margin-inline-start: 17px;
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    margin-block-end: 30px;
 }
 
-.post ins {
+
+.news_post__paragraph__ins {
     text-decoration: none;
 }
 
-.post blockquote {
+.news_post__blockquote {
     font-weight: bold;
     font-size: 26px;
     line-height: 36px;
+    position: relative;
+    margin-inline-start: 22px;
+    margin-block-start: 35px;
+    margin-block-end: 28px;
 }
 
-.post-meta a {
+.news_post__blockquote::before {
+    position: absolute;
+    content: '';
+    width: 2px;
+    background-color: #00c6bd;
+    height: 70px;
+    inset-inline-end: 967px;
+}
+
+.news_post__author_img {
+    width: 60px;
+    height: 60px;
+    margin-inline-end: 15px;
+}
+
+.news_post__author_link {
     font-size: 16px;
     line-height: 19px;
     font-weight: bold;
@@ -222,13 +267,29 @@
     text-decoration: none;
 }
 
-.post-meta time {
+.news_post__author_time {
     font-size: 16px;
     line-height: 19px;
     color: #8693a4;
 }
 
+.news_post__share_img {
+    width: 26px;
+    height: 26px;
+    margin-inline-start: 525px;
+}
 
+.news_post__footer {
+    margin-block-start: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.news_post__footer__paragraph {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
 
 /* Стили блока контакты */
 
