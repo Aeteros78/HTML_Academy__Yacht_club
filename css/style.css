@@ -386,28 +386,34 @@
 
 /* Стили footer */
 
-.main-footer {
-
+.main__footer {
+    margin-block-end: 60px;
     font-size: 10px;
     line-height: 12px;
 }
 
-.footer-container {
+.footer_container {
     width: 1170px;
 
     display: flex;
     justify-content: space-between;
 }
 
-.footer-column {
+.footer_container__logo {
     width: 175px;
 }
 
-.main-footer .logo {
+.footer__logo {
     width: 100px;
+    height: 106px;
 }
 
-.footer-navigation-topics {
+.footer__copyright {
+    color: #163152;
+    text-decoration: none;
+}
+
+.footer__navigation_list {
     display: flex;
     justify-content: space-between;
     width: 870px;
@@ -417,28 +423,27 @@
     line-height: 16px;
 }
 
-.footer-navigation-topic {
+.footer__navigation_list__item {
     width: 165px;
 }
 
-.footer-navigation-topic h2 {
+.footer__navigation_list__item__title {
 
     font-size: 14px;
     line-height: 18px;
     text-transform: uppercase;
 }
 
-.footer-navigation {
+.footer__navigation_sublist {
     list-style: none;
 
 }
 
-.footer-navigation-item a {
+.footer__navigation_sublist__item__link {
     color: #163152;
     text-decoration: none;
 }
 
-.policy a {
-    color: #163152;
-    text-decoration: none;
+.footer__navigation_sublist__item {
+
 }
