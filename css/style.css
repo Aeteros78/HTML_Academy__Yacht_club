@@ -47,14 +47,30 @@
     text-decoration: none;
 }
 
+.site_navigation__item__link:hover {
+    opacity: 0.5;
+}
+
+.site_navigation__item__link:active {
+    opacity: 0.3;
+}
+
 .signin {
     width: 36px;
     height: 36px;
 }
 
+.signin:hover {
+    opacity: 0.5;
+}
+
+.signin:active {
+    opacity: 0.3;
+}
+
 /* Стили main */
 
-.main_content{
+.main_content {
     width: 1170px;
     margin-inline: 55px;
 }
@@ -369,6 +385,14 @@
     align-items: center;
 }
 
+.contacts_content__list_social__item:hover {
+    opacity: 0.5;
+}
+
+.contacts_content__list_social__item:active {
+    opacity: 0.3;
+}
+
 .list_social__item__img_facebook {
     width: 9px; 
     height: 16px;
@@ -447,4 +471,12 @@
 .footer__navigation_sublist__item__link {
     color: #163152;
     text-decoration: none;
+}
+
+.footer__navigation_sublist__item__link:hover {
+    opacity: 0.5;
+}
+
+.footer__navigation_sublist__item__link:active {
+    opacity: 0.3;
 }
