@@ -141,7 +141,7 @@
 /* Стили артикль команда */
 
 .article_blog_team {
-    margin-block-end: 95px;
+    margin-block-end: 100px;
 }
 
 /* Стили артикль рожденные */
@@ -202,7 +202,6 @@
     width: 770px;
     height: 301px;
     margin-block-end: 15px;
-
 }
 
 .news_post__figure {
